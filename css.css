@@ -1,0 +1,99 @@
+*,  
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+img{
+        display: block;
+        max-width: 100%;
+        width: 300px;
+}
+.my-div{
+    background-color: #363062;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;px;
+}
+.tt{
+    background-color: #7D7C7C;
+    margin: 10px;px;
+    border-radius: 10px;
+}
+h2{
+    text-align : center 
+}
+div img,
+div p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px; /* Để đảm bảo các phần tử cùng hàng ngang */
+}
+div img{
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 300px; /* Giới hạn chiều rộng */
+    max-height: 200px; /* Giới hạn chiều cao */
+    width: auto; /* Đảm bảo tỷ lệ khung hình không bị biến đổi */
+    height: auto; /* Đảm bảo tỷ lệ khung hình không bị biến đổi */
+}
+.td{
+    text-align : center;
+    background-color: #2E4374;
+    border-radius: 10px;
+    margin:10px;
+}
+button{
+    margin-left: 47%;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 5px;
+    cursor: pointer; /* Đặt kiểu con trỏ */
+    width: 100px;
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    margin-top: 5px;
+}
+a{
+    color: #F3FDE8;
+    margin-left: 10px;
+    text-decoration: none;
+}
+body{
+    background-color: #B6FFFA;
+}
